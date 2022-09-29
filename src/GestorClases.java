@@ -15,8 +15,9 @@ public class GestorClases {
     }
 
     public static void main(String[] args) {
-        Figura[] v = new Figura[1];
+        Figura[] v = new Figura[2];
         v[0] = new Circulo(5);
+        v[1] = new Rectangulo(2,5);
 
         double r = GestorClases.suma(v);
 
