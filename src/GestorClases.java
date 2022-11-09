@@ -13,7 +13,6 @@ public class GestorClases {
         }
         return ret;
     }
-
     public static void main(String[] args) {
         Figura[] v = new Figura[2];
         v[0] = new Circulo(5);
